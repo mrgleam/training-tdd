@@ -6,6 +6,7 @@
     "live": "fusuma live -w '@nodejs'",
     "deploy": "fusuma deploy"
   },
+  "license": "MIT",
   "devDependencies": {
     "fusuma": "^1.15.0"
   }
