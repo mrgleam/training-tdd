@@ -18,3 +18,58 @@ import { Card } from '@fusuma/client';
     </>
   }
 />
+
+---
+
+<Card
+  left={
+    <>
+      <h3>Step 2</h3>
+    </>
+  }
+  right={
+    <>
+      <div class="text-left">
+        <p>Allow the Add method to handle an unknown amount of numbers</p>
+      </div>
+    </>
+  }
+/>
+
+---
+
+<Card
+  left={
+    <>
+      <h3>Step 3</h3>
+    </>
+  }
+  right={
+    <>
+      <div class="text-left">
+        <p class="pb-15">Allow the Add method to handle new lines between numbers (instead of commas).</p>
+        <p class="pb-15">the following input is ok: <code>"1\n2,3"</code> (will equal 6)</p>
+        <p class="pb-15">the following input is NOT ok: <code>"1,\n"</code> (not need to prove it - just clarifying)</p>
+      </div>
+    </>
+  }
+/>
+
+---
+
+<Card
+  left={
+    <>
+      <h3>Step 4</h3>
+    </>
+  }
+  right={
+    <>
+      <div class="text-left">
+        <p class="pb-15">Support different delimiters</p>
+        <p class="pb-15">1. to change a delimiter, the beginning of the string will contain a separate line that looks like this: <code>"//[delimiter]\n[numbers…]"</code> for example <code>"//;\n1;2"</code> should return three where the default delimiter is <code>";"</code></p>
+        <p>2. the first line is optional. all existing scenarios should still be supported</p>
+      </div>
+    </>
+  }
+/>
