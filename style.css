@@ -79,3 +79,11 @@ p{
   display: inline;
   text-align: right;
 }
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
