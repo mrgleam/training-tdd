@@ -69,3 +69,13 @@ p{
   font-size: 1em;
   font-style: italic;
 }
+
+.footer-credit {
+  font-size: 12px;
+  height: 20px;
+}
+
+.credit-right {
+  display: inline;
+  text-align: right;
+}
