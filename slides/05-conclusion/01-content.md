@@ -15,3 +15,19 @@
 # With Tests
 
 # Less Thinking = More Doing = More Coding!
+
+---
+
+# less bugs
+
+# higher quality software 
+
+# increase development confidence
+
+---
+
+# Testable code by design
+
+# Loosely-coupled design
+
+# Improves communication
