@@ -4,4 +4,5 @@ coverage
 lerna-debug.log
 .env
 *.pdf
+yarn.lock
 
